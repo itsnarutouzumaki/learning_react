@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar{
+  display: flex;
+  position: fixed;
+  bottom: 3rem; 
+  left: 0;
+  right: 0;
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  margin:-40px 20px;
+  border-radius: 10px;
+}
+
+.bar button{
+  margin: 0 0.5rem;
+  padding: 5px 10px;
+  border-radius: 15px;
+  /* box-shadow: 5px 5px 5px 5px; */
+  background-color: grey;
+  color: #fff;
+}
